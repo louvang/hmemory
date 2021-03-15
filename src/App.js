@@ -1,22 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Your objective is to get as many points as possible by clicking on a card that you haven't clicked on before.
+          This means you'll need to remember all of the cards you've already clicked on. The cards will scramble after
+          each click so be careful! If you click on a card that's already been clicked, you'll lose all your points.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
