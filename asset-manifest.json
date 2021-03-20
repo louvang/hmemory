@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/memokana/static/css/main.53b1d6a7.chunk.css",
+    "main.js": "/memokana/static/js/main.ef5e38df.chunk.js",
+    "main.js.map": "/memokana/static/js/main.ef5e38df.chunk.js.map",
+    "runtime-main.js": "/memokana/static/js/runtime-main.13ef2c92.js",
+    "runtime-main.js.map": "/memokana/static/js/runtime-main.13ef2c92.js.map",
+    "static/js/2.bc45cf4d.chunk.js": "/memokana/static/js/2.bc45cf4d.chunk.js",
+    "static/js/2.bc45cf4d.chunk.js.map": "/memokana/static/js/2.bc45cf4d.chunk.js.map",
+    "static/js/3.dc3d4e8f.chunk.js": "/memokana/static/js/3.dc3d4e8f.chunk.js",
+    "static/js/3.dc3d4e8f.chunk.js.map": "/memokana/static/js/3.dc3d4e8f.chunk.js.map",
+    "index.html": "/memokana/index.html",
+    "static/css/main.53b1d6a7.chunk.css.map": "/memokana/static/css/main.53b1d6a7.chunk.css.map",
+    "static/js/2.bc45cf4d.chunk.js.LICENSE.txt": "/memokana/static/js/2.bc45cf4d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13ef2c92.js",
+    "static/js/2.bc45cf4d.chunk.js",
+    "static/css/main.53b1d6a7.chunk.css",
+    "static/js/main.ef5e38df.chunk.js"
+  ]
+}
