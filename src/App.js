@@ -1,15 +1,26 @@
-function App() {
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Cards from './components/Cards';
+
+const App = () => {
+  const [gameOver, setGameOver] = useState(false);
+  const [streak, setStreak] = useState(0);
+  const [highestStreak, setHighestStreak] = useState(0);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Your objective is to get as many points as possible by clicking on a card that you haven't clicked on before.
-          This means you'll need to remember all of the cards you've already clicked on. The cards will scramble after
-          each click so be careful! If you click on a card that's already been clicked, you'll lose all your points.
-        </p>
-      </header>
+      <Header streak={streak} highestStreak={highestStreak} gameOver={gameOver} setGameOver={setGameOver} />
+
+      <Cards
+        streak={streak}
+        setStreak={setStreak}
+        highestStreak={highestStreak}
+        setHighestStreak={setHighestStreak}
+        gameOver={gameOver}
+        setGameOver={setGameOver}
+      />
     </div>
   );
-}
+};
 
 export default App;

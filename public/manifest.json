@@ -1,6 +1,6 @@
 {
-  "short_name": "Hmemory Game",
-  "name": "A memory game using Hmong vocabulary.",
+  "short_name": "memokana",
+  "name": "A memory game using Japanese katakana.",
   "icons": [
     {
       "src": "favicon.ico",
